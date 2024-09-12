@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: micronaut-liquibase
+datasources:
+  liquibaseds:
+    url: jdbc:sqlserver://localhost:1433;user=sa
+    password: MSSQLServer_Password
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    db-type: mssql
+    dialect: SQL_SERVER
+    schema-generate: NONE
+liquibase:
+  datasources:
+    liquibaseds:
+      change-log: 'classpath:db/liquibase-changelog.xml'

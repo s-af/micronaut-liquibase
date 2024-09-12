@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, data, data-jdbc, hibernate-reactive-jpa, http-client-test, java, java-application, jdbc-tomcat, junit, liquibase, logback, maven, maven-enforcer-plugin, micronaut-aot, micronaut-http-validation, netty-server, reactor, reactor-http-client, readme, serialization-jackson, shade, sqlserver, static-resources, test-resources, yaml, yaml-build]
